@@ -26,10 +26,10 @@ export default function RootLayout({
       <html lang="en">
         <body className={inter.className}>
           <SignedOut>
-            <SignInButton />
+            {/* <SignInButton /> */}
           </SignedOut>
           <SignedIn>
-            <UserButton />
+            {/* <UserButton /> */}
           </SignedIn>
           {children}
         </body>
