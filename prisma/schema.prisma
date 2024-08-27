@@ -10,7 +10,8 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://finance_owner:Zqbln2KtMcT6@ep-solitary-pine-a56q9uvc-pooler.us-east-2.aws.neon.tech/finance?sslmode=require"
+  url      = "prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNDdlMjVjZjMtYzdiZC00MTk1LTliMDMtZDI2YTRiMWE0MTQ3IiwidGVuYW50X2lkIjoiYWNhMDY3Y2Y0MmJiYmM4ZWIyNjhjMDhjMTFlOTE1MTZiNGI4NzQ4NjcwODA2ZTE0NDlhZmYyNTQ5NjA0Y2M5MCIsImludGVybmFsX3NlY3JldCI6ImFlZjgzZTY5LTU5YzUtNDM0MS05NGIzLTU2NjE3OGRkYTkxYiJ9.yN77IVTL0l8ntIxPKBj7FHIr3fuAj2_cwC78RdgQUc4"
+  directUrl = "postgresql://finance_owner:Zqbln2KtMcT6@ep-solitary-pine-a56q9uvc-pooler.us-east-2.aws.neon.tech/finance?sslmode=require"
 }
 
 model accounts {

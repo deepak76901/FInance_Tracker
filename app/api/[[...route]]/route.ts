@@ -7,7 +7,7 @@ import accountRouter from "./accounts";
 import { HTTPException } from "hono/http-exception";
 import { error } from "console";
 
-// export const runtime = "edge";
+export const runtime = "edge";
 
 const app = new Hono().basePath("/api");
 
